@@ -34,3 +34,5 @@ csv_var = st.sidebar.file_uploader('Upload a csv file:', type=['csv'])
 if csv_var != None:
     df = pd.read_csv(csv_var)
     st.write('Uploaded file:', df)
+
+    ##
